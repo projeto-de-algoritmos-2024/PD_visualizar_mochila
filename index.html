@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Knapsack</title>
+</head>
+<body>
+<!-- Canvas para desenhar -->
+<canvas id="meuCanvas" width="150" height="400" style="border:1px solid #000;"></canvas>
+<canvas id="todosItensCanvas" width="200" height="400" style="border:1px solid #000; margin-top: 20px; margin-left: 20px;"></canvas>
+
+<!-- Elementos de entrada para o usuário -->
+<div>
+    <label>Peso máximo da mochila: <input type="number" min="0" id="pesoMax"></label><br>
+    <label>Quantidade de itens: <input type="number" min="0" id="quantiaItens"></label><br>
+    <button onclick="iniciarKnapsack()">Iniciar</button>
+</div>
+
+<script src="index.js"></script> <!-- Importa o script JavaScript -->
+</body>
+</html>

@@ -2,10 +2,7 @@
     "name": "knapsack-pyxel-node",
     "version": "1.0.0",
     "description": "Projeto de conversão de um código Pyxel Knapsack de Python para Node.js",
-    "main": "main.js",
-    "scripts": {
-      "start": "node main.js"
-    },
+    "main": "index.html",
     "dependencies": {
       "canvas": "^2.9.3"
     },
