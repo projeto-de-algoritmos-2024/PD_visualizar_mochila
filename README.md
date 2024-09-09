@@ -1,44 +1,49 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Visualizar Mochila
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 20<br>
+**Conteúdo da Disciplina**: Programação Dinâmica<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 190028122  |  Gabriel Sabanai |
+| 211029586  |  Sabrina Berno |
+
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Este projeto é uma implementação da solução do problema da mochila (Knapsack Problem) utilizando JavaScript/Node.js, com uma interface gráfica simples feita com a biblioteca `canvas` para desenhar os itens escolhidos. O objetivo é calcular quais itens podem ser colocados em uma mochila com capacidade máxima de peso, de modo a maximizar o valor total, e exibir esses itens graficamente.
+
+### Funcionamento:
+1. O programa pede ao usuário a capacidade máxima da mochila e a quantidade de itens disponíveis, além de solicitar o valor e o peso de cada item.
+2. A solução do problema é calculada utilizando o algoritmo de programação dinâmica para o problema da mochila.
+3. Os itens selecionados são exibidos em uma interface gráfica simulada usando `canvas`.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript (Node.js)<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+### Pré-requisitos:
+- Node.js instalado na sua máquina (versão 12+)
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+### Passos de Instalação:
+
+1. Instale as dependências do projeto:
+``` node
+npm install
+```
+2. Se necessário, instale as dependências adicionais para a biblioteca canvas:
+``` node
+sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+```
+
+### Uso
+Após instalar todas as dependências, execute o projeto:
+
+``` node
+npm start
+```
 
 
 
