@@ -19,8 +19,9 @@ Este projeto é uma implementação da solução do problema da mochila (Knapsac
 3. Os itens selecionados são exibidos em uma interface gráfica simulada usando `canvas`.
 
 ## Screenshots
-
-
+![img.png](assets/img.png)
+![img.png](assets/img2.png)
+![img.png](assets/img3.png)
 ## Instalação 
 **Linguagem**: JavaScript (Node.js)<br>
 
@@ -44,6 +45,8 @@ Após instalar todas as dependências, abra o arquivo index.html que se encontra
 ``` node
 PD_visualizar_mochila/index.html
 ```
+## Video de apresentação:
+[**Video de apresentação - Programação Dinâmica**](https://youtu.be/qftUuI4k3FU)
 
 
 

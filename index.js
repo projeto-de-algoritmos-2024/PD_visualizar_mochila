@@ -147,9 +147,6 @@ function iniciarKnapsack() {
 
     const knapsack = new Knapsack();
 
-    const allItems = Array.from({ length: quantiaItens }, (_, i) => [i + 1]);
-    new Index(allItems);
-
     knapsack.set(pesoMax, quantiaItens, valores, pesos).then(() => {
         const [maxValor, itensEscolhidos] = knapsack.knapsack();
 
