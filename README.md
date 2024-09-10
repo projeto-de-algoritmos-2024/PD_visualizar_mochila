@@ -39,10 +39,10 @@ sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev l
 ```
 
 ### Uso
-Após instalar todas as dependências, execute o projeto:
+Após instalar todas as dependências, abra o arquivo index.html que se encontra no projeto.:
 
 ``` node
-npm start
+PD_visualizar_mochila/index.html
 ```
 
 
